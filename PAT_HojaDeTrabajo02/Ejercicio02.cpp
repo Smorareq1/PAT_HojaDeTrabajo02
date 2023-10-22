@@ -2,8 +2,8 @@
 
 Node<int>* Ejercicio02::addTwoNumbers(Node<int>* l1, Node<int>* l2)
 {
-    Node<int>* dummyHead = new Node<int>{ 0 };
-    Node<int>* current = dummyHead;
+    Node<int>* nodoAux = new Node<int>{ 0 };
+    Node<int>* current = nodoAux;
     int carry = 0;
 
     
@@ -33,5 +33,5 @@ Node<int>* Ejercicio02::addTwoNumbers(Node<int>* l1, Node<int>* l2)
         current->next = new Node<int>{ carry };
     }
 
-    return dummyHead->next;
+    return nodoAux->next;
 }
