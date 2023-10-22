@@ -2,6 +2,7 @@
 
 FrontMiddleBackQueue::FrontMiddleBackQueue()
 {
+
 }
 
 void FrontMiddleBackQueue::pushFront(int value)
